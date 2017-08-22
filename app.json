@@ -1,12 +1,26 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/shoppingNum/shoppingNum"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#00d6df",
+    "navigationBarTitleText": "闫浩奇-testDemo1",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "backgroundColor":"#2b8cff",
+    "color":"black",
+    "selectedColor":"#fe0000",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页-is me"
+      },
+      {
+        "pagePath":"pages/shoppingNum/shoppingNum",
+        "text":"购物数量组件"
+      }
+    ]
   }
 }

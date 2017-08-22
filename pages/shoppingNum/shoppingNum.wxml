@@ -1,0 +1,5 @@
+<view class="stepper">
+  <text class="{{minusStatus}}" bindtap="decrease">-</text>
+  <input type="number" bingchange="manual" val="{{num}}"/>
+  <text class="normal" bindtap="increase">+</text>
+</view>
